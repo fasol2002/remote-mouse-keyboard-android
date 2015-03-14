@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/remoteview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CaptureActivity" >
+    
+    <EditText
+        android:id="@+id/maineditor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:imeOptions="actionSend"
+        android:inputType="text"
+        android:maxLength="2000"
+        android:maxLines="4" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/debugText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:enabled="true"
+        android:inputType="textMultiLine"
+        android:minLines="@integer/minlines" />
+
+</RelativeLayout>
