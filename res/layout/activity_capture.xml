@@ -21,16 +21,5 @@
         <requestFocus />
     </EditText>
 
-    <EditText
-        android:id="@+id/debugText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:ems="10"
-        android:enabled="true"
-        android:inputType="textMultiLine"
-        android:minLines="@integer/minlines" />
 
 </RelativeLayout>

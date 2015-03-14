@@ -693,12 +693,11 @@ remi.remotecontrol.BuildConfig
 remi.remotecontrol.CaptureActivity:
     private static final java.lang.String DEFAULT_BASE
 remi.remotecontrol.DiscoveryService:
-    private static final java.lang.String TAG
     public static final java.lang.String DISCOVERY_SERVICE_NAME
     public static final java.lang.String DISCOVERY_SERVICE_HOST
     public static final java.lang.String DISCOVERY_SERVICE_PORT
     public static final java.lang.String DICOVERY_RESULT
-    38:41:public void setActivityEnabled(android.content.Context,java.lang.Class,boolean)
+    37:40:public void setActivityEnabled(android.content.Context,java.lang.Class,boolean)
 remi.remotecontrol.R
 remi.remotecontrol.R$attr
 remi.remotecontrol.R$drawable
@@ -712,6 +711,6 @@ remi.remotecontrol.ServiceDiscoveryActivity:
     public static final java.lang.String SELECTED_SERVICE
     public static final java.lang.String SERVICE_BASE_URL
 remi.remotecontrol.adapter.ServiceAdapter:
-    77:79:public void remove(remi.remotecontrol.pojo.RemoteService)
+    73:75:public void remove(remi.remotecontrol.pojo.RemoteService)
 remi.remotecontrol.pojo.RemoteService:
     14:14:public java.lang.String getName()

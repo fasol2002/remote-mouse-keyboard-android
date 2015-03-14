@@ -1,21 +1,17 @@
 package remi.remotecontrol.adapter;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
 import remi.remotecontrol.R;
 import remi.remotecontrol.pojo.RemoteService;
-
 import android.content.Context;
 import android.graphics.Color;
-import android.text.style.BackgroundColorSpan;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
-import remi.discovery.ServiceDescription;
 
 public class ServiceAdapter extends BaseAdapter {
 

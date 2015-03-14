@@ -15,7 +15,6 @@ import android.support.v4.content.LocalBroadcastManager;
 
 public class DiscoveryService extends Service implements /*DiscoveryListener, ResolveListener,*/ OnDiscoveryListener{
 
-	private static final String TAG = "Discovery";
 	//private static final String SERVICE_TYPE = "_remotecontrol._tcp";
 	public static final String DISCOVERY_SERVICE_NAME = "DISCOVERY_SERVICE_NAME";
 	public static final String DISCOVERY_SERVICE_HOST = "DISCOVERY_SERVICE_HOST";

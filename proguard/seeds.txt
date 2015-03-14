@@ -51,7 +51,6 @@ remi.remotecontrol.CaptureActivity: void onClick(android.view.View)
 remi.remotecontrol.DiscoveryService
 remi.remotecontrol.DiscoveryService: DiscoveryService()
 remi.remotecontrol.R$drawable: int ic_launcher
-remi.remotecontrol.R$id: int debugText
 remi.remotecontrol.R$id: int discoveryList
 remi.remotecontrol.R$id: int firstLine
 remi.remotecontrol.R$id: int icon

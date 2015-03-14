@@ -12,8 +12,6 @@ import android.content.IntentFilter;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.Bundle;
 import android.support.v4.content.LocalBroadcastManager;
-import android.view.ContextMenu;
-import android.view.ContextMenu.ContextMenuInfo;
 import android.view.GestureDetector;
 import android.view.KeyEvent;
 import android.view.Menu;
